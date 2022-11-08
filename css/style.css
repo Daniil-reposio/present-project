@@ -1281,6 +1281,10 @@ foursection */
   margin-right: 34px;
 }
 
+.ui-accordion-content-active {
+  max-height: 100%;
+}
+
 .foursectionaccord__listunderaccordion1024 {
   display: none;
   margin: 0;
@@ -1525,6 +1529,7 @@ accordion */
 
 .foursectionaccord__item {
   border-top: none;
+  width: 714px;
 }
 
 .foursectionaccord__link {
@@ -3031,6 +3036,10 @@ registr */
     margin-right: 187px;
   }
 
+  .foursectionaccord__item {
+    width: 540px;
+  }
+
   .swiper-button-next {
     top: 560px;
   }
@@ -3713,6 +3722,10 @@ registr */
     left: 50%;
     z-index: 10000;
     transform: translate(-50%, -50%);
+  }
+
+  .foursectionaccord__item {
+    width: auto;
   }
 
   .registr--active {
